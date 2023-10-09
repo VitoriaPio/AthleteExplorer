@@ -37,5 +37,5 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias e bibliotecas:
 
 ## Contribuição
 
-Este projeto foi desenvolvido para um projeto da disciplina de Web I.
+Este projeto foi desenvolvido na disciplina de Web I.
 
