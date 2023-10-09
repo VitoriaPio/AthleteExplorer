@@ -1,4 +1,4 @@
-# AtheteExplorer - Sistema de Pesquisa de Jogadores de Futebol com ReactJS
+# AthleteExplorer - Sistema de Pesquisa de Jogadores de Futebol com ReactJS
 
 Este repositório contém um projeto ReactJS que implementa um sistema de pesquisa de atletas de um determinado esporte, permitindo aos usuários buscar atletas por nome e adicionar seus atletas favoritos a uma lista. O projeto utiliza a API TheSportsDB para obter informações sobre atletas. Além disso, ele inclui a exibição de informações dos atletas em cartões (`CardAtleta`), imagens dos atletas, e um painel de favoritos para gerenciar atletas favoritos.
 
