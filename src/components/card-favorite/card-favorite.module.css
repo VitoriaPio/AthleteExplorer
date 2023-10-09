@@ -1,0 +1,95 @@
+.container {
+  background-color: #fff;
+  color: var(--primary-color);
+  padding: 20px;
+  width: 19rem;
+  border-radius: 0.5rem;
+  margin: 0 1.5rem;
+
+  transition: 0.5s ease;
+}
+
+.container:hover {
+  transform: scale(1.05);
+}
+
+.container img {
+  border-radius: 0.5rem;
+  border: 1px solid var(--primary-color);
+}
+
+.container h5 {
+  color: var(--primary-color);
+  font-size: 2.1rem;
+}
+
+/* botão de facvoritos */
+.favoriteBtn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 2rem;
+  border-radius: 0.4rem;
+
+  font-size: 1rem;
+
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+
+  transition: 0.5s ease;
+
+  border: 1px solid var(--secondary-color);
+}
+
+.favoriteBtn:hover {
+  border: 1px solid var(--primary-color);
+
+  background: transparent;
+  color: var(--primary-color);
+}
+
+.infoContainer {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  gap: 1rem;
+}
+
+.playerInfos {
+  width: 100%;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+.playerInfos div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+
+  font-size: 1rem;
+}
+.playerNumber {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 900px) {
+  .container {
+    width: 15rem;
+  }
+  .playerInfos {
+    display: none;
+  }
+}
+
+@media (max-width: 630px) {
+  .playerInfos div {
+    font-size: 0.1rem;
+  }
+}

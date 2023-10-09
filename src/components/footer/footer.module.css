@@ -1,0 +1,49 @@
+.footer {
+  position: static;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 1.5rem 1rem;
+
+  background-color: black;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  font-size: 1.4rem;
+}
+
+.footer h2 {
+  color: var(--secondary-color);
+}
+
+.footer nav {
+  gap: 1rem;
+}
+
+.footer nav a {
+  padding: 0.2rem 1rem;
+  color: #fff;
+  transition: 0.5s ease;
+  text-decoration: none;
+
+  border-radius: 0.5rem;
+}
+
+.footer nav a:hover {
+  color: var(--black-color);
+  background-color: var(--secondary-color);
+}
+
+@media (max-width: 700px) {
+  .footer {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .footer nav {
+    gap: 0.4rem;
+  }
+}

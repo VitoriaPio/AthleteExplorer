@@ -1,0 +1,27 @@
+.navBar {
+  width: 100%;
+  background-color: var(--primary-color);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 0.6rem;
+  gap: 1rem;
+}
+
+.linkStyle {
+  background-color: var(--secondary-color);
+  text-decoration: none;
+  width: 30%;
+  text-align: center;
+  font-size: 25px;
+  border-radius: 0.4rem;
+  transition: 0.5s ease;
+  color: var(--primary-color);
+}
+
+.linkStyle:hover {
+  color: hsl(0, 0%, 100%);
+  background-color: var(--primary-color);
+}
