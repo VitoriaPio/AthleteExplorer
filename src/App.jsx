@@ -8,19 +8,26 @@ import Header from './components/header/index';
 import Favorites from './routes/Favorites';
 import Navbar from './components/nav-bar';
 import Footer from './components/footer/index';
+import Iot from './routes/Iot/index';
 
 // paginas
 
 // Constante das rotas da aplicação
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: "/",
     element: <Home />,
   },
   {
-    path: '/favorite',
+    path: "/favorite",
     element: <Favorites />,
   },
+    {
+    path: "/temperatura",
+    element: <Iot />,
+  },
+
+
 ]);
 
 function App() {

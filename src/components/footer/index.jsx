@@ -15,6 +15,7 @@ function Footer() {
       <nav className="col d-flex flex-column align-items-center justify-content-around">
         <a href="/">Atletas</a>
         <a href="/favorite">Favoritos</a>
+        <a href="/iot">Temperatura</a>
       </nav>
     </footer>
   );

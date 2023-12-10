@@ -24,4 +24,5 @@
 .linkStyle:hover {
   color: hsl(0, 0%, 100%);
   background-color: var(--primary-color);
+  border:2px solid var(--secondary-color) ;
 }
