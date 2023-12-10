@@ -10,7 +10,7 @@ function Navbar() {
         <a href="/favorite" className={styles.linkStyle}>
           Favoritos
         </a>
-        <a href="/iot" className={styles.linkStyle}>
+        <a href="/temperatura" className={styles.linkStyle}>
           Temperatura
         </a>
       </nav>
