@@ -20,7 +20,7 @@ function IoT() {
       <div className={styles.cardContainer}>
         <h1>Temperatura</h1>
 
-        <h3><span>{ data.data.temperature }</span></h3>
+        <h3><span>{ data.data.feeds[0].field1 }</span></h3>
       </div>
     </div>
   );
