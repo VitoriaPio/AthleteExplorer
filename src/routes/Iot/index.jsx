@@ -13,10 +13,13 @@ function IoT() {
   // Exibindo texto de carregamento enquanto os dados não são retornados
   if (isLoading) return <p>Carregando...</p>;
 
+  if (!data) return <span>Deu merda!</span>
   return (
     <div className={styles.info}>
       <div className={styles.cardContainer}>
-        <h1>Tela de IoT</h1>
+        <h1>Temperatura</h1>
+
+        <h3><span>{{ data.data?.temperature }}</span></h3>
       </div>
     </div>
   );
